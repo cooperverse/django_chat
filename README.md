@@ -12,7 +12,7 @@
 ---
 
 ## 📖 Overview
-A production-ready Real-Time Chat Backend built with **Django Channels**, **Redis**, and **DRF**. This system supports dynamic isolated chat rooms, JWT-authenticated WebSocket connections, and persistent message history.
+A production-ready Real-Time Chat Backend built with **Django Channels** and **DRF**. This system supports dynamic isolated chat rooms, JWT-authenticated WebSocket connections, and persistent message history.
 
 ## ✨ Key Features
 * **Real-Time Messaging**: Low-latency bidirectional communication via WebSockets.
