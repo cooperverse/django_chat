@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 > **🚀 Project Resources:**
-> - 📄 **Interactive API Docs:** [Swagger UI](http://127.0.0.1:8000/api/docs/)
+> - 📄 **Interactive API Docs:** [Swagger UI](https://cooperverse.github.io/django_chat/)
 > - 🔌 **WebSocket Entry:** `ws://127.0.0.1:8000/ws/chat/{room_name}/`
 
 ---
@@ -56,12 +56,15 @@ A production-ready Real-Time Chat Backend built with **Django Channels**, **Redi
 To connect to any room, use the following URL structure. Room names are dynamic and created upon connection.
 
 **URL Template:**
-`ws://127.0.0.1:8000/ws/chat/<ROOM_NAME>/?token=<YOUR_JWT_ACCESS_TOKEN>`
+ 
+  
+    ws://127.0.0.1:8000/ws/chat/<ROOM_NAME>/?token=<YOUR_JWT_ACCESS_TOKEN>`
 
 **Example:**
-`ws://127.0.0.1:8000/ws/chat/global/?token=eyJhbGci...`
+    
+    ws://127.0.0.1:8000/ws/chat/global/?token=eyJhbGci...`
 
-🛡️ License
+## 🛡️ License
 Distributed under the MIT License. See LICENSE for more information.
 
 
