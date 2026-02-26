@@ -143,10 +143,11 @@ CHANNEL_LAYERS = {
 }
 
 SPECTACULAR_SETTINGS = {
-    'TITLE': 'Dhat Chat API',
+    'TITLE': 'Django Chat API',
     'DESCRIPTION': 'Django Chat API with realtime',
     'VERSION': '1.0.0',
     'SERVE_INCLUDE_SCHEMA': True,
+    
     
 }
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
